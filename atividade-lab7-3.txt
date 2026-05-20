@@ -1,0 +1,10 @@
+import random
+chance = 5
+numero_secreto = (random.randint(1,10))
+while chance > 0:
+    numero = int(input(f"É o numero certo? Você tem {chances} chances: "))
+    chances -= 1
+    if numero == 7
+        print ("Você acertou o número, parabens")
+        break
+# Eu copiei o codigo da questao passada e alternei os valores e o nome das variaveis para dar certo.

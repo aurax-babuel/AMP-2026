@@ -1,0 +1,11 @@
+soma = 0
+contador = 0
+
+while contador < 10:
+    num = int(input("Digite um número para somar: "))
+    soma += num
+    contador += 1
+
+print("Soma total:", soma)
+
+#Adicionar váriavel "contador" para toda vez que somarmos conte mais 1 "contador += 1" até chegar em 10.
