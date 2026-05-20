@@ -1,0 +1,22 @@
+import random  
+
+numero_secreto = random.randint(1, 10)
+chances = 5
+
+while chances > 0:
+    num = int(input(f"Usuario, por favor digite um número de 1 a 10 ({chances} chances): "))
+    
+    chances -= 1
+
+    if num == numero_secreto:
+        print("Parabéns usuario, você acertou!")
+        break
+    else:
+        print("Ops usuario, você errou!")
+
+if num != numero_secreto:
+    print("Usuario.... suas chances acabaram!")
+    print("Usuario, o número era", numero_secreto)
+    
+#O import random gera um numero aleatorio de 1 a 10, o usuario tem 5 tentativas, o while dá uma condição de loop, o if da linha 11 verifica se o usuario acertou o numero e o break encerra o loop.
+
